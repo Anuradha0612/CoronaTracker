@@ -12,8 +12,8 @@
     <div class="container">
         <h1>Covid cases Live Tracker</h1>
         <p>This application lists the current number of cases reported across the globe</p>
-        <div class="jumbbotron" style="background-color: aliceblue; padding: 30px 20px;">
-            <h1 class="display-4" th:text="${latestNumberCases}"></h1>
+        <div class="jumbotron" style="background-color: aliceblue; padding: 30px 20px;">
+           <form th:action="@{/chart}" method="get"> <button class="display-4" style="background-color: yellow">6684497</button></form>
             <p class="idea">Total cases reported as of today</p>
             <hr class="my-4">
             <p>

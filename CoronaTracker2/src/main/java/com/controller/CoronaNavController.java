@@ -26,5 +26,9 @@ public class CoronaNavController {
         return "index";
 
 	}
-
-}
+	
+	@GetMapping("/chart")
+	public String getImage(Model m) {
+		return "chart";
+	}
+} 

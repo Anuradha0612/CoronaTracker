@@ -22,8 +22,7 @@ public class CovidTrackerService {
 	
 	private List<LocationStates> allStates = new ArrayList<>();
 	
-	public static final String VIRUS_URL="https://github.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv";
-			/*"https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";*/
+	public static final String VIRUS_URL="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
 
 	@PostConstruct
 	public void fetchData() throws IOException, InterruptedException{
